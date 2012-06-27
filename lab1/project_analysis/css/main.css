@@ -1,0 +1,54 @@
+html, body, h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	margin: 0 auto;
+	width: 70%;
+	border: solid 10px #005;
+}
+
+header, nav, div {
+	background-color: #def;
+	margin-bottom: 30px;
+	padding: 0 10px;
+	clear: left;
+}
+
+header p {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #777;
+}
+
+li {
+	float: left;
+	display: block;
+	width: 32%;
+	height: 50px;
+	text-align: center;
+}
+
+li a {
+	text-decoration: none;
+	color: #000;
+}
+
+h1, h2, h3, p{
+	padding-top: 10px;
+}
+
+h2 {
+	border-top: solid 1px #005;
+}
+
+#wrapper {
+	margin-bottom: 0;
+}
+
+#targeted-audience {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
