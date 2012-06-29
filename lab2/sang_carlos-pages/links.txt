@@ -1,0 +1,5 @@
+csang.github.com/wsp/lab2/sang_carlos-pages/index
+
+csang.github.com/wsp/lab2/sang_carlos-pages/application
+
+csang.github.com/wsp/lab2/sang_carlos-pages/generic
