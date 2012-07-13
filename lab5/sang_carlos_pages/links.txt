@@ -1,0 +1,11 @@
+csang.github.com/wsp/lab4/sang_carlos-pages/index
+
+csang.github.com/wsp/lab4/sang_carlos-pages/application
+
+csang.github.com/wsp/lab4/sang_carlos-pages/attractions
+
+csang.github.com/wsp/lab4/sang_carlos-pages/policies
+
+csang.github.com/wsp/lab4/sang_carlos-pages/about
+
+csang.github.com/wsp/lab4/sang_carlos-pages/contact
