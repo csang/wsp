@@ -1,0 +1,199 @@
+body {
+	margin: 0 auto;
+	width: 80%;
+	background-color: #cde6ff;
+}
+	
+p, address{
+	font: 62.5%/1.5 times, "times new roman", sans-serif;
+	font-size: .9em;
+}
+
+h1 {
+	float: left;
+	width: 30%;
+	clear: left;
+	padding-left: 1%;
+	margin-top: 10px;
+}
+
+header {
+	background-color: #00f;
+	border: 1px solid #000;
+	height: 50px;
+	background: url(../images/bg-header.jpg);
+}
+
+nav {
+	float: left;
+	margin-left: 5%;
+	width: 60%;
+}
+	
+ul li {
+	float: left;
+	font-size: .5em;
+	margin: 5% 3%;
+}
+
+ul li a, h1 {
+	display: block;
+}
+
+h2 {
+	clear: left;
+}
+
+section {
+	float: left;
+	width: 70%;
+	clear: left;
+}
+
+#zipline {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #000;
+	clear: left;
+	background-color: #555;
+	height: 350px;
+}
+
+#zipline h2 {
+	background-color: #ff0;
+	margin: 0;
+	padding: .5% 1%;
+}
+
+iframe {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+#waterpark h2, #mini_golf h2, #go_karts h2 {
+	background-color: #00aeef;
+	padding: 1.5% 3%;
+	margin: 0;
+}
+
+#waterpark, #mini_golf, #go_karts {
+	width: 33%;
+	float: left;
+	border: 1px solid #000;
+	background-color: #00aeef;
+	margin-top: 17px;
+}
+
+h2 a, li a, h1 a {
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+
+aside {
+	float: right;
+	width: 29%;
+	overflow: hidden;
+	border: 1px solid #000;
+	background-color: #00aeef;
+	height: 560px;
+	margin-bottom: 17px;
+}
+
+aside img {
+	width: 90%;
+	margin: 0 5%;
+}
+
+footer {
+	clear: both;
+	border: 1px solid #000;
+	background-color: #00aeef;
+	margin-top: 20px;
+}
+
+footer p, aside p, address {
+	text-align: center;
+}
+
+/*----------------------------=Form-------------------------------*/
+
+#form_content {
+	border: 1px solid #000;
+	padding: 0;
+	margin-top: 17px;
+}
+
+#form_header {
+	background-color: #00aeef;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+}
+
+#form_header h2, #form_header p {
+	margin: 0;
+	padding: 1%;
+}
+
+#form {
+	background-color: #fff;
+}
+
+fieldset {
+	width: 45%;
+}
+
+#right_div {
+	float: right;
+}
+
+/*-------------------------=Attractions----------------------------*/
+
+h2 {
+	background-color: #00aeef;
+}
+
+#extreme_body_sliding img, #att_go_karts img, #att_mini_golf img, #att_zipline img {
+	width: 23%;
+	float: left;
+}
+
+#extreme_body_sliding, #att_go_karts, #att_mini_golf, #att_zipline {
+	height: 350px;
+	background-color: #fff;
+	padding: 0;
+	margin-top: 17px;
+}
+
+#extreme_body_sliding h2, #att_go_karts h2, #att_mini_golf h2, #att_zipline h2 {
+	padding: 0;
+}
+
+#extreme_body_sliding p, #att_go_karts p, #att_mini_golf p {
+	float: right;
+	width: 73%;
+	padding: 0 1%;
+}
+
+#water_park p {
+	width: 100%;
+}
+
+#water_park {
+	height: 500px;
+	background-color: #fff;
+}
+
+#adventure_bwtt, #body_twisters, #tube_slide, #kiddie_mini_river {
+	width: 23%;
+	float: left;
+	padding: 1%;
+}
+
+#adventure_bwtt, #body_twisters, #tube_slide {
+	border-right: 1px solid #000;
+}
