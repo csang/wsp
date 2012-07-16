@@ -1,0 +1,338 @@
+body {
+	margin: 0 auto;
+	width: 80%;
+	background-color: #cde6ff;
+}
+	
+p, address{
+	font: 62.5%/1.5 times, "times new roman", sans-serif;
+	font-size: .9em;
+}
+
+h1 {
+	float: left;
+	width: 27%;
+	clear: left;
+	padding-left: 1%;
+	margin-top: 10px;
+}
+
+header {
+	background-color: #00f;
+	border: 1px solid #000;
+	height: 50px;
+	background: url(../images/bg-header.jpg);
+}
+
+nav {
+	float: right;
+	margin: 0;
+	width: 70%;
+	padding: 0;
+}
+	
+nav ul li {
+	float: left;
+	font-size: 1em;
+	padding: 0 2%;
+}
+
+.active {
+	background-color: rgba(0,200,255, .6);
+}
+
+nav ul li a {
+	color: #fff;
+	display: block;
+	height: 32px;
+	margin: 0;
+	width: 130%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h2 {
+	clear: left;
+}
+
+section {
+	float: left;
+	width: 70%;
+	clear: left;
+}
+
+#zipline {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #000;
+	clear: left;
+	background-color: #555;
+	height: 350px;
+}
+
+#zipline h2 {
+	background-color: #ff0;
+	margin: 0;
+	padding: .5% 1%;
+}
+
+iframe {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+#waterpark h2, #mini_golf h2, #go_karts h2 {
+	background-color: #00aeef;
+	padding: 1.5% 3%;
+	margin: 0;
+}
+
+#waterpark, #mini_golf, #go_karts {
+	width: 33%;
+	float: left;
+	border: 1px solid #000;
+	background-color: #00aeef;
+	margin-top: 17px;
+	height: 202px;
+}
+
+h2 a, li a, h1 a {
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+
+aside {
+	float: right;
+	width: 29%;
+	overflow: hidden;
+	border: 1px solid #000;
+	background-color: #00aeef;
+	height: 570px;
+	margin-bottom: 17px;
+}
+
+aside img {
+	width: 90%;
+	margin: 0 5%;
+}
+
+footer {
+	clear: both;
+	border: 1px solid #000;
+	background-color: #00aeef;
+	margin-top: 20px;
+}
+
+footer p, aside p, address {
+	text-align: center;
+}
+
+/*----------------------------=Form-------------------------------*/
+
+#form_content {
+	border: 1px solid #000;
+	padding: 0;
+	margin-top: 17px;
+}
+
+#form_header {
+	background-color: #00aeef;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+}
+
+#form_header h2, #form_header p {
+	margin: 0;
+	padding: 1%;
+}
+
+#form {
+	background-color: #fff;
+}
+
+fieldset {
+	width: 45%;
+}
+
+#right_div {
+	float: right;
+}
+
+/*-------------------------=Attractions----------------------------*/
+
+h2 {
+	background-color: #00aeef;
+}
+
+#extreme_body_sliding img, #att_go_karts img, #att_mini_golf img, #att_zipline img {
+	width: 23%;
+	float: left;
+}
+
+#extreme_body_sliding, #att_go_karts, #att_mini_golf, #att_zipline {
+	height: 350px;
+	background-color: #fff;
+	padding: 0;
+	margin-top: 17px;
+	border: 1px solid #000;
+}
+
+#extreme_body_sliding h2, #att_go_karts h2, #att_mini_golf h2, #att_zipline h2 {
+	padding: 0;
+	margin-top: 0;
+}
+
+#extreme_body_sliding p, #att_go_karts p, #att_mini_golf p {
+	float: right;
+	width: 73%;
+	padding: 0 1%;
+}
+
+#water_park h2 {
+	margin: 0;
+}
+
+#water_park p {
+	width: 100%;
+}
+
+#water_park {
+	height: 428px;
+	background-color: #fff;
+	border: 1px solid #000;
+	margin-top: 17px;
+}
+
+#adventure_bwtt, #body_twisters, #tube_slide, #kiddie_mini_river {
+	width: 23%;
+	float: left;
+	padding: 0 1%;
+	margin: 0;
+	height: 400px;
+}
+
+#adventure_bwtt, #body_twisters, #tube_slide {
+	border-right: 1px solid #000;
+}
+
+/*------------------------------=Policies----------------------------------*/
+
+#policies {
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 0;
+	margin-top: 17px;
+}
+
+#policies h2 {
+	margin-top: 0;
+	padding: .5% 1%;
+}
+
+#policies h3, #policies p {
+	padding: 0 2%;
+}
+
+#policies ul {
+	padding: 0 4%;
+}
+
+/*------------------------------=Contact us----------------------------------*/
+
+#contact_us {
+	background-color: #fff;
+	border: 1px solid #000;
+	margin-top: 17px;
+	height: 1230px;
+}
+
+#contact_us h2, #contact_us h3, #contact_us p, #contact_us label, #contact_us input {
+	margin: 0;
+	padding: .5% 1%;
+}
+
+#contact_us h3 {
+	margin-top: 15px;
+}
+
+#contact_us label, #contact_us form p {
+ display: block;
+ width: 25%;
+ text-align: right;
+ margin: 0 0;
+ float: left;
+ clear: left;
+}
+
+#contact_us form p {
+	float: none;
+	clear: both;
+	width: 25%;
+	font-size: 1em;
+}
+
+#contact_us input[type=text] {
+	height: 14px;
+}
+
+#contact_us input, #contact_us select {
+	float: left;
+	margin: 4px 0;
+}
+
+#contact_us select {
+	height: 25px;
+}
+
+#contact_us input[type=radio] {
+	margin-top: 9px;
+}
+
+#contact_us input[type=checkbox] {
+	margin-top: 26px;
+}
+
+#contact_us input[type=submit] {
+	margin: 60px 0 0 -15px;
+}
+
+#contact_us img, #contact_us address {
+	width: 30%;
+	margin: 1% 5%;
+}
+
+/*------------------------------=About us----------------------------------*/
+
+#about_us {
+	background-color: #fff;
+	border: 1px solid #000;
+	margin-top: 17px;
+}
+
+#about_us h2 {
+	margin-top: 0;
+	padding: .5% 1%;
+}
+
+#about_us p {
+	padding: 0 2%;
+}
+
+/*------------------------------=Media queries----------------------------------*/
+
+@media only screen and (max-width: 479px) {
+	
+	body {
+		position: relative;
+	}
+	
+	nav {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
