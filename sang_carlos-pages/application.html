@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<title>Thunder Island | Application</title>
+</head>
+	<body>
+		
+		<header>
+			<h1><a href="index.html">Thunder Island</a></h1>
+		
+		<nav>
+			<ul>
+				<li id="mobile_home_link"><a href="index.html">Home</a></li>
+				<li><a href="attractions.html">Attractions</a></li>
+				<li><a href="policies.html">Policies</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="application.html" class="active">Application for Employment</a></li>
+			</ul>
+		</nav>
+		
+		</header>
+		
+		<div id="form_content">
+		
+		<div id="form_header">
+		
+			<h2>Application for Employment</h2>			
+			<p>Please fill in the form below. You can also <a href="application/application.pdf">download the form here</a>.</p>
+			
+		</div>
+		
+		<div id="form">
+		
+		<form method="post" action="csangchino@fullsail.edu">
+		
+		<section>
+		
+		<fieldset id="personal">
+			<legend>PERSONAL</legend>
+			
+			<br />
+				
+				<div>
+					<label for="name" class="text_input_label">Name:</label>
+					<input type="text" name="name" id="name" placeholder="First Name" autofocus="autofocus" />
+				</div>
+				
+				<div>
+					<label for="ssn" class="text_input_label">Social Security #:</label>
+					<input type="text" name="ssn" id="ssn" maxlength="9"/>
+				</div>
+				
+				<div>
+					<label for="address" class="text_input_label">Permanent Address:</label>
+					<input type="text" name="address" id="address" />
+				</div>
+				
+				<div>
+					<label for="city" class="text_input_label">City:</label>
+					<input type="text" name="city" id="city" />
+				</div>
+				
+				<div>
+					<label for="state" id="select_label">State:</label>
+					<select name="state" id="state">
+						<option>- Select -</option>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>
+					</select>
+				</div>
+				
+				<div>
+					<label for="zip" class="text_input_label">Zip:</label>
+					<input type="text" name="zip" id="zip" maxlength="5" />
+				</div>
+				
+				<div>
+					<label for="phone" class="text_input_label">Phone:</label>
+					<input type="tel" name="phone" id="phone" placeholder="(000)000-0000" />
+				</div>
+				
+				<div>
+					<label for="emergency_contact" class="text_input_label">Emergency Contact:</label>
+					<input type="text" name="emergency_contact" id="emergency_contact" />
+				</div>
+				
+				<div>
+				<br />
+					<p>Are you legally eligible for employment in U.S.?</p>
+						<input type="radio" name="eligibility" id="is_eligible" />
+						<label for="is_eligible">Yes</label>
+						<input type="radio" name="eligibility" id="not_eligible" />
+						<label for="not_eligible">No</label>
+				</div>
+				
+				<div>
+					<p>Are you over 18 years old?</p>
+						<input type="radio" name="over_age" id="over_18" />
+						<label for="over_18">Yes</label>
+						<input type="radio" name="over_age" id="under_18" />
+						<label for="under_18">No</label>
+				</div>
+				
+				<div>
+					<p>Position Desired:</p>
+					<ul>
+						<li><input type="checkbox" name="lifeguard" id="lifeguard" />
+						<label for="lifeguard">Lifeguard</label></li>
+						<li><input type="checkbox" name="attendant" id="attendant" />
+						<label for="attendant">Attendant</label></li>
+						<li><input type="checkbox" name="food_service" id="food_service" />
+						<label for="food_service">Food Service</label></li>
+						<li><input type="checkbox" name="ride_operator" id="ride_operator" />
+						<label for="ride_operator">Ride_operator</label></li>
+						<li><input type="checkbox" name="sales" id="sales" />
+						<label for="sales">Sales</label></li>
+					</ul>
+				</div>
+				
+			</fieldset>
+		
+			<fieldset id="past_employment">
+				<legend>PAST EMPLOYMENT <span>(Most recent first)</span></legend>
+				
+				<div>
+					<p>Are you currently employed?</p>
+						<input type="radio" name="employment" id="employed" />
+						<label for="employed">Yes</label>
+						<input type="radio" name="employment" id="unemployed" />
+						<label for="unemployed">No</label>
+				</div>
+				
+				<br />
+				
+				<div>
+					<label for="company_1" class="text_input_label">*Company:</label>
+					<input type="text" name="company_1" id="company_1" required="required" />
+				</div>
+				
+				<div>
+					<label for="comp_phone_1" class="text_input_label">Phone #:</label>
+					<input type="tel" name="comp_phone_1" id="comp_phone_1" placeholder="(000)000-0000" />
+				</div>
+				
+				<div>
+					<label for="supervisor_1" class="text_input_label">Name of Supervisor:</label>
+					<input type="text" name="supervisor_1" id="supervisor_1" />
+				</div>
+				
+				<div>
+					<label for="dates_employed_1" class="text_input_label">Dates Employed:</label>
+					<input type="text" name="dates_employed_1" id="dates_employed_1" placeholder="MM/DD/YYYY-MM/DD/YYYY" />
+				</div>
+				
+				<div>
+					<label for="salary_1" class="text_input_label">Salary:</label>
+					<input type="text" name="salary_1" id="salary_1" placeholder="$" />
+				</div>
+				
+				<div>
+					<label for="titles_1" class="text_input_label">Titles &amp; Duties:</label>
+					<input type="text" name="titles_1" id="titles_1" />
+				</div>
+				
+				<div>
+					<label for="reason_1" class="text_input_label">Reason for Leaving:</label>
+					<textarea name="reason_1" id="reason_1"></textarea>
+				</div>
+				
+				<div>
+					<label for="company_2" class="text_input_label">*Company:</label>
+					<input type="text" name="company_2" id="company_2" required="required" />
+				</div>
+				
+				<div>
+					<label for="comp_phone_2" class="text_input_label">Phone #:</label>
+					<input type="tel" name="comp_phone_2" id="comp_phone_2" placeholder="(000)000-0000" />
+				</div>
+				
+				<div>
+					<label for="supervisor_2" class="text_input_label">Name of Supervisor:</label>
+					<input type="text" name="supervisor_2" id="supervisor_2" />
+				</div>
+				
+				<div>
+					<label for="dates_employed_2" class="text_input_label">Dates Employed:</label>
+					<input type="text" name="dates_employed_2" id="dates_employed_2" placeholder="DD/MM/YYYY-MM/DD/YYYY"/>
+				</div>
+				
+				<div>
+					<label for="salary_2" class="text_input_label">Salary:</label>
+					<input type="text" name="salary_2" id="salary_2" placeholder="$" />
+				</div>
+				
+				<div>
+					<label for="titles_2" class="text_input_label">Titles &amp; Duties:</label>
+					<input type="text" name="titles_2" id="titles_2" />
+				</div>
+				
+				<div>
+					<label for="reason_2" class="text_input_label">Reason for Leaving:</label>
+					<textarea name="reason_2" id="reason_2"></textarea>
+				</div>
+				
+			</fieldset>
+		
+		</section>
+		
+		<div id="right_div">
+		
+			<fieldset id="education">
+				<legend>EDUCATION</legend>
+				
+				<h3>High School</h3>
+				
+				<div>
+					<label for="hs_name" class="text_input_label">Name &amp; Location:</label>
+					<input type="text" name="hs_name" id="hs_name" />
+				</div>
+				
+				<div>
+					<label for="hs_dates" class="text_input_label">Dates Attended:</label>
+					<input type="text" name="hs_dates" id="hs_dates" placeholder="MM/DD/YYYY-MM/DD/YYYY" />
+				</div>
+				
+				<div>
+					<label for="hs_course" class="text_input_label">Course of Study:</label>
+					<input type="text" name="hs_course" id="hs_course" />
+				</div>
+				
+				<div>
+					<p>Did you Graduate?</p>
+						<input type="radio" name="hs_grad" id="hs_grad" />
+						<label for="hs_grad">Yes</label>
+						<input type="radio" name="hs_grad" id="hs_fail" />
+						<label for="hs_fail">No</label>
+				</div>
+				
+				<h3>College</h3>
+				
+				<div>
+					<label for="c_name" class="text_input_label">Name &amp; Location:</label>
+					<input type="text" name="c_name" id="c_name" />
+				</div>
+				
+				<div>
+					<label for="c_dates" class="text_input_label">Dates Attended:</label>
+					<input type="text" name="c_dates" id="c_dates" placeholder="MM/DD/YYYY-MM/DD/YYYY" />
+				</div>
+				
+				<div>
+					<label for="c_course" class="text_input_label">Course of Study:</label>
+					<input type="text" name="c_course" id="c_course" />
+				</div>
+				
+				<div>
+					<p>Did you Graduate?</p>
+						<input type="radio" name="c_grad" id="c_grad" />
+						<label for="c_grad">Yes</label>
+						<input type="radio" name="c_grad" id="c_fail" />
+						<label for="c_fail">No</label>
+				</div>
+				
+				<h3>Trade/Business School</h3>
+				
+				<div>
+					<label for="t/b_name" class="text_input_label">Name &amp; Location:</label>
+					<input type="text" name="t/b_name" id="t/b_name" />
+				</div>
+				
+				<div>
+					<label for="t/b_dates" class="text_input_label">Dates Attended:</label>
+					<input type="text" name="t/b_dates" id="t/b_dates" placeholder="MM/DD/YYYY-MM/DD/YYYY" />
+				</div>
+				
+				<div>
+					<label for="t/b_course" class="text_input_label">Course of Study:</label>
+					<input type="text" name="t/b_course" id="t/b_course" />
+				</div>
+				
+				<div>
+					<p>Did you Graduate?</p>
+						<input type="radio" name="t/b_grad" id="t/b_grad" />
+						<label for="t/b_grad">Yes</label>
+						<input type="radio" name="t/b_grad" id="t/b_fail" />
+						<label for="t/b_fail">No</label>
+				</div>
+				
+			</fieldset>
+		
+			<fieldset id="general">
+				<legend>GENERAL</legend>
+				
+				<br />
+				
+				<div>
+					<label for="skills" class="text_input_label">Special Skills:</label>
+					<textarea name="skills" id="skills"></textarea>
+				</div>
+				
+				<div>
+					<label for="activities" class="text_input_label">Activities:</label>
+					<textarea name="activities" id="activities"></textarea>
+				</div>
+				
+			</fieldset>
+		
+			<fieldset id="references">
+				<legend>REFERENCES</legend>
+				<p>(Please use at least one personal and one business related)</p>
+				
+				<div>
+					<label for="ref_1" class="text_input_label">Name &amp; Phone #:</label>
+					<input type="text" name="ref_1" id="ref_1" placeholder="example1 (000)000-0000" />
+				</div>
+				
+				<div>
+					<label for="ref_2" class="text_input_label">Name &amp; Phone #:</label>
+					<input type="text" name="ref_2" id="ref_2" placeholder="example2 (000)000-0000" />
+				</div>
+				
+				<div>
+					<label for="ref_3" class="text_input_label">Name &amp; Phone #:</label>
+					<input type="text" name="ref_3" id="ref_3" placeholder="example3 (000)000-0000" />
+				</div>
+				
+			</fieldset>
+		
+			<fieldset id="availability">
+				<legend>AVAILABILITY</legend>
+				
+				<div>
+					<p>Applying for:</p>
+						<input type="radio" name="applying_for" id="full_time" />
+						<label for="full_time">Full Time</label>
+						<input type="radio" name="applying_for" id="part_time" />
+						<label for="part_time">Part Time</label>
+				</div>
+				
+				<br />
+				
+				<div>
+					<label for="when_start">When are you available to start</label>
+					<input type="date" name="when_start" id="when_start" />
+				</div>
+				
+			</fieldset>
+		
+		<div id="submit">
+		
+		<input type="submit" name="submit" value="SEND" />
+		
+		</div>
+		
+		</div><!-- Close right_div -->
+		
+		</form>
+		
+		</div><!-- Close form -->
+		
+		</div><!-- Close form_content -->
+		
+		<div id="mobile_form">
+		
+		<h3>Application for employment</h3>
+		
+			<a href="application/application.pdf"><img src="images/button.gif" alt="Download botton for the application for employment"></a>
+			
+			<br />
+		
+		<h3>Subscribe to get the latest news:</h3>
+		
+		<form method="get" action="csangchino@fullsail.edu" id="contact_form">
+
+			<div>
+				<label for="fname">First Name:</label>
+				<input type="text" name="fname" id="fname" placeholder="First Name" autofocus="autofocus" />
+			</div>
+			
+			<div>
+				<label for="lname">Last Name:</label>
+				<input type="text" name="lname" id="lname" />
+			</div>
+			
+			<div>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email" />
+			</div>
+			
+			<div>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="mobile_city" />
+			</div>
+			
+			<div>
+				<label for="state">State:</label>
+				<select name="state" id="mobile_state">
+					<option value="AL">Alabama</option>
+					<option value="AK">Alaska</option>
+					<option value="AZ">Arizona</option>
+					<option value="AR">Arkansas</option>
+					<option value="CA">California</option>
+					<option value="CO">Colorado</option>
+					<option value="CT">Connecticut</option>
+					<option value="DE">Delaware</option>
+					<option value="DC">District of Columbia</option>
+					<option value="FL">Florida</option>
+					<option value="GA">Georgia</option>
+					<option value="HI">Hawaii</option>
+					<option value="ID">Idaho</option>
+					<option value="IL">Illinois</option>
+					<option value="IN">Indiana</option>
+					<option value="IA">Iowa</option>
+					<option value="KS">Kansas</option>
+					<option value="KY">Kentucky</option>
+					<option value="LA">Louisiana</option>
+					<option value="ME">Maine</option>
+					<option value="MD">Maryland</option>
+					<option value="MA">Massachusetts</option>
+					<option value="MI">Michigan</option>
+					<option value="MN">Minnesota</option>
+					<option value="MS">Mississippi</option>
+					<option value="MO">Missouri</option>
+					<option value="MT">Montana</option>
+					<option value="NE">Nebraska</option>
+					<option value="NV">Nevada</option>
+					<option value="NH">New Hampshire</option>
+					<option value="NJ">New Jersey</option>
+					<option value="NM">New Mexico</option>
+					<option value="NY">New York</option>
+					<option value="NC">North Carolina</option>
+					<option value="ND">North Dakota</option>
+					<option value="OH">Ohio</option>
+					<option value="OK">Oklahoma</option>
+					<option value="OR">Oregon</option>
+					<option value="PA">Pennsylvania</option>
+					<option value="RI">Rhode Island</option>
+					<option value="SC">South Carolina</option>
+					<option value="SD">South Dakota</option>
+					<option value="TN">Tennessee</option>
+					<option value="TX">Texas</option>
+					<option value="UT">Utah</option>
+					<option value="VT">Vermont</option>
+					<option value="VA">Virginia</option>
+					<option value="WA">Washington</option>
+					<option value="WV">West Virginia</option>
+					<option value="WI">Wisconsin</option>
+					<option value="WY">Wyoming</option>
+				</select>
+			</div>
+			
+			<div>
+				<label for="zip">Zip:</label>
+				<input type="text" name="zip" id="mobile_zip" maxlength="5" />
+			</div>
+			
+			<div>
+				<p>Do you want to receive daily news?</p>
+					<label id="label_yes" for="yes_daily_news">Yes</label>
+					<input type="radio" name="news" id="yes_daily_news" />										
+					<label id="label_no" for="no_daily_news">No</label>
+					<input type="radio" name="news" id="no_daily_news" />
+			</div>
+				
+			<div>
+				<label for="accept_terms">I have read and accept the terms of agreement.</label>
+				<input type="checkbox" name="agree" id="accept_terms" />
+			</div>
+			
+			<input type="submit" name="submit" value="SUBMIT" />
+			
+		</form>
+		
+		</div>
+				
+		<footer>
+			<address>Thunder Island Family Entertainment Complex, 21 Wilcox Rd. Fulton, NY 13069</address>
+			<p>Phone (315) 598-8016</p>
+		</footer>
+	
+	</body>
+</html>
