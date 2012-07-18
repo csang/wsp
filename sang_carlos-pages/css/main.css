@@ -248,7 +248,7 @@ h2 {
 
 #extreme_body_sliding h2, #att_go_karts h2, #att_mini_golf h2, #att_zipline h2 {
 	padding: 0;
-	margin-top: 0;
+	margin: 0;
 }
 
 #extreme_body_sliding p, #att_go_karts p, #att_mini_golf p {
@@ -266,7 +266,7 @@ h2 {
 }
 
 #water_park {
-	height: 478px;
+	height: 508px;
 	background-color: #fff;
 	border: 1px solid #000;
 	margin-top: 17px;
@@ -277,7 +277,7 @@ h2 {
 	float: left;
 	padding: 0 1%;
 	margin: 0;
-	height: 450px;
+	height: 480px;
 }
 
 #body_twisters img, #tube_slide img, #kiddie_mini_river img {
@@ -316,7 +316,7 @@ h2 {
 	background-color: #fff;
 	border: 1px solid #000;
 	margin-top: 17px;
-	height: 1230px;
+	height: 1270px;
 }
 
 #contact_us h2, #contact_us h3, #contact_us p, #contact_us label, #contact_us input {
@@ -399,7 +399,7 @@ h2 {
 -----------------------------=Media queries------------------------------
 -----------------------------------------------------------------------*/
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
 
 /*------------------------------=Home----------------------------------*/
 	
