@@ -13,7 +13,7 @@ p, address{
 
 h1 {
 	float: left;
-	width: 27%;
+	width: 29%;
 	clear: left;
 	padding-left: 1%;
 	margin-top: 10px;
@@ -25,6 +25,7 @@ header {
 	border: 1px solid #000;
 	height: 50px;
 	background: url(../images/bg-header.jpg);
+	width: 99.5%;
 }
 
 nav {
@@ -36,18 +37,18 @@ nav {
 	
 nav ul li {
 	float: left;
-	font-size: 1em;
-	padding: 0 2%;
+	font-size: .7em;
+	padding: 0 3%;
 }
 
 .active {
-	background-color: rgba(0,200,255, .6);
+	background-color: rgba(255,255,255, .5);
 }
 
 nav ul li a {
-	color: #fff;
+	color: #000;
 	display: block;
-	height: 32px;
+	height: 30px;
 	margin: 0;
 	width: 130%;
 	text-align: center;
@@ -69,7 +70,7 @@ h2 {
 	clear: left;
 	background-color: #555;
 	height: 350px;
-	width: 100%;
+	width: 99.5%;
 }
 
 #zipline h2 {
@@ -88,6 +89,7 @@ iframe {
 
 img {
 	width: 100%;
+	height: 200px;
 }
 
 #waterpark h2, #mini_golf h2, #go_karts h2 {
@@ -101,8 +103,8 @@ img {
 	float: left;
 	border: 1px solid #000;
 	background-color: #00aeef;
-	margin-top: 17px;
-	height: 202px;
+	margin-top: 10px;
+	height: 250px;
 }
 
 h2 a, li a, h1 a {
@@ -111,18 +113,48 @@ h2 a, li a, h1 a {
 	color: #000;
 }
 
+section {
+	width: 49%;
+	margin: 0;
+	float: left;
+}
+
 #contact_info {
-	width: 48%;
-	overflow: hidden;
+	width: 100%;
 	border: 1px solid #000;
 	background-color: #00aeef;
-	height: 570px;
-	margin-bottom: 17px;
+	height: 620px;
+	margin: 10px 0;
 }
 
 #contact_info img {
 	width: 90%;
 	margin: 0 5%;
+}
+
+#contact_info p {
+	text-align: center;
+}
+
+#prices {
+	width: 49%;
+	height: 620px;
+	float: right;
+	margin: 10px 0;
+	background-color: #00aeef;
+	border: 1px solid #000;
+}
+
+#prices h3 {
+	padding: 0 2%;
+}
+
+#prices ul {
+	padding: 0 1% 0 10%;
+}
+
+#prices p {
+	padding: 0 2%;
 }
 
 footer {
@@ -157,7 +189,7 @@ footer p, aside p, address {
 	padding: 0;
 }
 
-#form_header h2, #form_header p {
+h2, #form_header p {
 	margin: 0;
 	padding: 1%;
 }
