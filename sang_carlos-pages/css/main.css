@@ -93,9 +93,9 @@ img {
 	height: 200px;
 }
 
-#waterpark h2, #mini_golf h2, #go_karts h2 {
+div h2, #waterpark h2, #mini_golf h2, #go_karts h2 {
 	background-color: #00aeef;
-	padding: 1.5% 3%;
+	padding: .5% 1%;
 	margin: 0;
 }
 
@@ -231,7 +231,7 @@ legend {
 
 .text_input_label, #select_label {
 	float: left;
-	width: 40%;
+	width: 50%;
 	text-align: right;
 	padding-right: 1%;
 	margin-bottom: 10px;
@@ -255,10 +255,6 @@ legend {
 
 /*-------------------------=Attractions----------------------------*/
 
-h2 {
-	background-color: #00aeef;
-}
-
 #extreme_body_sliding img, #att_go_karts img, #att_mini_golf img, #att_zipline img {
 	width: 23%;
 	float: left;
@@ -271,11 +267,6 @@ h2 {
 	padding: 0;
 	margin-top: 17px;
 	border: 1px solid #000;
-}
-
-#extreme_body_sliding h2, #att_go_karts h2, #att_mini_golf h2, #att_zipline h2 {
-	padding: 0;
-	margin: 0;
 }
 
 #extreme_body_sliding p, #att_go_karts p, #att_mini_golf p {
@@ -324,11 +315,6 @@ h2 {
 	margin-top: 17px;
 }
 
-#policies h2 {
-	margin-top: 0;
-	padding: .5% 1%;
-}
-
 #policies h3, #policies p {
 	padding: 0 2%;
 }
@@ -346,7 +332,7 @@ h2 {
 	height: 1270px;
 }
 
-#contact_us h2, #contact_us h3, #contact_us p, #contact_us label, #contact_us input {
+#contact_us h3, #contact_us p, #contact_us label, #contact_us input {
 	margin: 0;
 	padding: .5% 1%;
 }
@@ -411,11 +397,6 @@ h2 {
 	background-color: #fff;
 	border: 1px solid #000;
 	margin-top: 17px;
-}
-
-#about_us h2 {
-	margin-top: 0;
-	padding: .5% 1%;
 }
 
 #about_us p {
