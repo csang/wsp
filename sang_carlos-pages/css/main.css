@@ -16,8 +16,8 @@ h1 {
 	width: 29%;
 	clear: left;
 	padding-left: 1%;
-	margin-top: 10px;
-	font-family: "shark formal funnyness";
+	margin: 5px 0 17px;
+	font-family: "Salsa";
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 	border: 1px solid #000;
 	height: 50px;
 	background: url(../images/bg-header.jpg);
-	width: 99.5%;
+	width: 99.8%;
 }
 
 nav {
@@ -61,6 +61,7 @@ nav ul li a {
 
 h2 {
 	clear: left;
+	font-family: 'Happy Monkey';
 }
 
 #zipline {
@@ -69,23 +70,22 @@ h2 {
 	border: 1px solid #000;
 	clear: left;
 	background-color: #555;
-	height: 420px;
-	width: 99.5%;
+	width: 99.8%;
 }
 
 #zipline h2 {
-	background-color: #ff0;
+	background-color: rgba(255,255,100, 1);
 	margin: 0;
 	padding: .5% 1%;
 }
 
 #zipline p {
-	margin: 4px;
+	margin: 1%;
+	color: #fff;
 }
 
 iframe {
 	width: 100%;
-	height: 350px;
 }
 
 img {
@@ -94,17 +94,28 @@ img {
 
 div h2, #waterpark h2, #mini_golf h2, #go_karts h2 {
 	background-color: #00aeef;
-	padding: .5% 1%;
+	padding: .5% 3%;
 	margin: 0;
 }
 
-#waterpark, #mini_golf, #go_karts {
-	width: 33%;
+#waterpark, #mini_golf {
+	width: 31.7%;
 	float: left;
 	border: 1px solid #000;
-	background-color: #00aeef;
+	background-color: #fff;
 	margin-top: 10px;
-	height: 250px;
+}
+
+#go_karts {
+	float: right;
+	width: 31.7%;
+	border: 1px solid #000;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+#mini_golf {
+	margin: 10px 2.1% 0;
 }
 
 h2 a, li a, h1 a {
@@ -114,7 +125,7 @@ h2 a, li a, h1 a {
 }
 
 section {
-	width: 49%;
+	width: 49.5%;
 	margin: 0;
 	float: left;
 }
@@ -122,31 +133,35 @@ section {
 #contact_info {
 	width: 100%;
 	border: 1px solid #000;
-	background-color: #00aeef;
-	height: 620px;
+	background-color: #fff;
 	margin: 10px 0;
 }
 
 #contact_info img {
-	width: 90%;
-	margin: 0 5%;
+	width: 80%;
+	margin: 0 10%;
 }
 
 #contact_info p {
 	text-align: center;
+	padding: 1%;
 }
 
 #prices {
-	width: 49%;
-	height: 620px;
+	width: 49.5%;
 	float: right;
 	margin: 10px 0;
-	background-color: #00aeef;
+	background-color: #fff;
 	border: 1px solid #000;
 }
 
-#prices h3 {
-	padding: 0 2%;
+#contact_info h3, #prices h3 {
+	padding: 0 3%;
+	margin: 20px 0 10px;
+}
+
+#prices ul li {
+	margin: 10px 0 20px;
 }
 
 #prices ul {
@@ -164,8 +179,9 @@ footer {
 	margin-top: 17px;
 }
 
-footer p, aside p, address {
+footer p, address {
 	text-align: center;
+	padding: 10px 0 0;
 }
 
 #mobile {
@@ -177,9 +193,8 @@ footer p, aside p, address {
 #form_content {
 	border: 1px solid #000;
 	padding: 0;
-	margin: 17px 0;
+	margin: 11px 0;
 	background-color: #fff;
-	height: 1450px;
 }
 
 #form_header {
@@ -196,13 +211,12 @@ h2, #form_header p {
 
 fieldset {
 	width: 100%;
-	background-color: #00aeef;
+	background-color: #fff;
 	margin-bottom: 17px;
 	padding-top: 0;
 }
 
 legend {
-	padding-top: 25px;
 	font-size: 1.2em;
 }
 
@@ -257,20 +271,26 @@ legend {
 #extreme_body_sliding img, #att_go_karts img, #att_mini_golf img, #att_zipline img {
 	width: 23%;
 	float: left;
-	margin-left: 10px;
+	margin: 15px 0 0 10px;
 }
 
 #extreme_body_sliding, #att_go_karts, #att_mini_golf, #att_zipline {
 	height: 350px;
 	background-color: #fff;
 	padding: 0;
-	margin-top: 17px;
+	margin-top: 11px;
 	border: 1px solid #000;
 }
 
 #extreme_body_sliding p, #att_go_karts p, #att_mini_golf p {
 	float: right;
 	width: 73%;
+	padding: 0 1%;
+}
+
+#att_zipline p {
+	float: right;
+	width: 48%;
 	padding: 0 1%;
 }
 
@@ -286,15 +306,15 @@ legend {
 	height: 508px;
 	background-color: #fff;
 	border: 1px solid #000;
-	margin-top: 17px;
+	margin-top: 10px;
 }
 
 #adventure_bwtt, #body_twisters, #tube_slide, #kiddie_mini_river {
-	width: 23%;
+	width: 22.5%;
 	float: left;
 	padding: 0 1%;
 	margin: 0;
-	height: 480px;
+	height: 471px;
 }
 
 #body_twisters img, #tube_slide img, #kiddie_mini_river img {
@@ -311,7 +331,7 @@ legend {
 	background-color: #fff;
 	border: 1px solid #000;
 	padding: 0;
-	margin-top: 17px;
+	margin-top: 11px;
 }
 
 #policies h3, #policies p {
@@ -327,8 +347,7 @@ legend {
 #contact_us {
 	background-color: #fff;
 	border: 1px solid #000;
-	margin-top: 17px;
-	height: 1270px;
+	margin-top: 11px;
 }
 
 #contact_us h3, #contact_us p, #contact_us label, #contact_us input {
@@ -395,7 +414,7 @@ legend {
 #about_us {
 	background-color: #fff;
 	border: 1px solid #000;
-	margin-top: 17px;
+	margin-top: 11px;
 }
 
 #about_us p {
