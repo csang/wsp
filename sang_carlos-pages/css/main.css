@@ -198,12 +198,12 @@ footer p, address {
 	border: 1px solid #000;
 	padding: 0;
 	margin: 11px 0;
-	background-color: #fff;
+	background-color: #ffffff;
+	height: 1400px;
 }
 
 #form_header {
 	background-color: #00aeef;
-	margin: 0;
 	padding: 0;
 }
 
@@ -229,9 +229,10 @@ legend {
 }
 
 #right_div {
-	float: left;
+	float: right;
 	width: 43%;
 	margin: 2%;
+	padding: 0 5% 0 0;
 }
 
 #form input[type=submit] {
@@ -277,8 +278,16 @@ legend {
 	margin: 15px 0 0 10px;
 }
 
-#extreme_body_sliding, #att_go_karts, #att_mini_golf, #att_zipline {
-	height: 350px;
+#extreme_body_sliding {
+	height: 385px;
+	background-color: #fff;
+	padding: 0;
+	margin-top: 11px;
+	border: 1px solid #000;
+}
+
+#att_go_karts, #att_mini_golf, #att_zipline {
+	height: 280px;
 	background-color: #fff;
 	padding: 0;
 	margin-top: 11px;
@@ -306,7 +315,7 @@ legend {
 }
 
 #water_park {
-	height: 508px;
+	height: 550px;
 	background-color: #fff;
 	border: 1px solid #000;
 	margin-top: 10px;
@@ -317,7 +326,7 @@ legend {
 	float: left;
 	padding: 0 1%;
 	margin: 0;
-	height: 471px;
+	/*height: 501px;*/
 }
 
 #body_twisters img, #tube_slide img, #kiddie_mini_river img {
@@ -351,6 +360,7 @@ legend {
 	background-color: #fff;
 	border: 1px solid #000;
 	margin-top: 11px;
+	height: 1300px;
 }
 
 #contact_us h3, #contact_us p, #contact_us label, #contact_us input {
@@ -403,9 +413,14 @@ legend {
 	margin: 60px 0 0 -15px;
 }
 
-#contact_us img, #contact_us address, #contact_us p a {
+#contact_us img, #contact_us address {
 	width: 30%;
 	margin: 1% 5%;
+}
+
+#directions {
+	text-align: center;
+	width: 40%;
 }
 
 #mobile_form {
@@ -469,6 +484,10 @@ legend {
 	h2 {
 		font-size: 1em;
 	}
+	
+	#form_content {
+		height: 1450px;
+	}
 
 }
 
@@ -491,6 +510,10 @@ legend {
 	
 	h2 {
 		font-size: 1.2em;
+	}
+	
+	legend {
+		font-size: 1em;
 	}
 
 }
@@ -552,6 +575,18 @@ legend {
 		display: block;
 	}
 	
+	#waterpark {
+		margin: 10px 0 10px 1%;
+	}
+	
+	#go_karts {
+		margin: 10px 1% 10px 0;
+	}
+	
+	#mini_golf {
+		margin: 10px 0 10px .7%;
+	}
+	
 	nav ul li {
 		float: left;
 		font-size: .5em;
@@ -561,7 +596,7 @@ legend {
 	}
 	
 	nav ul li a {
-		color: #fff;
+		color: #000;
 		display: block;
 		height: 32px;
 		margin: 0;
@@ -578,27 +613,23 @@ legend {
 		padding: 0 0 6%;
 	}
 	
-	#mobile_water_park, #mobile_mini_golf, #mobile_go_karts {
-		height: 45px;
-		width: 96%;
-		margin: 0 auto;
-		padding: 3% 0; 
-	}
-	
-	#zipline, #waterpark, #mini_golf, #go_karts, aside, section {
-		float: none;
+	#zipline {
 		width: 98%;
 		margin: 0 auto;
 	}
 	
-	aside {
-		background-color: #cde6ff;
-		border: none;
-		margin-bottom: 90px;
-		height: 600px;
+	#prices, section {
+		float: none;
+		clear: both;
+		width: 98%;
+		margin: 10px 1% 0;
 	}
 	
-	#zipline, #waterpark, #mini_golf, #go_karts {
+	#prices {
+		margin: 10px 1% 50px;
+	}
+	
+	#waterpark p, #mini_golf p, #go_karts p {
 		display: none;
 	}
 	
@@ -686,9 +717,9 @@ legend {
 /*-------------------------=Attractions----------------------------*/
 
 	#extreme_body_sliding img, #att_go_karts img, #att_mini_golf img, #att_zipline img, #water_park img {
-		width: 98%;
+		width: 90%;
 		float: none;
-		margin: 0 1%;
+		margin: 1% 5%;
 	}
 	
 	#extreme_body_sliding, #water_park, #att_go_karts, #att_mini_golf, #att_zipline {
@@ -704,7 +735,7 @@ legend {
 	}
 	
 	#water_park {
-		height: 2200px;
+		height: 2300px;
 	}
 
 	#att_go_karts {
@@ -731,7 +762,7 @@ legend {
 		float: none;
 		padding: 0 2%;
 		margin: 0;
-		height: 530px;
+		height: 550px;
 	}
 	
 	#adventure_bwtt, #body_twisters, #tube_slide {
@@ -762,7 +793,7 @@ legend {
 	#contact_us {
 		margin: 0 auto 50px;
 		width: 98%;
-		height: 1420px;
+		height: 1450px;
 	}
 	
 	#contact_us address, #contact_us img, #contact_us #directions {
