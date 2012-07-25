@@ -112,7 +112,7 @@ div h2, #waterpark h2, #mini_golf h2, #go_karts h2 {
 
 #go_karts {
 	float: right;
-	width: 31.8%;
+	width: 31.6%;
 	border: 1px solid #000;
 	background-color: #fff;
 	margin-top: 10px;
@@ -268,6 +268,10 @@ legend {
 #form h3 {
 	font-size: 1em;
 	padding-top: 5px;
+}
+
+#mobile_form {
+	display: none;
 }
 
 /*-------------------------=Attractions----------------------------*/
@@ -464,7 +468,7 @@ legend {
 	nav ul li {
 		float: left;
 		font-size: .4em;
-		padding: 0 2%;
+		padding: 0;
 	}
 	
 	nav ul li a {
@@ -487,7 +491,7 @@ legend {
 
 }
 
-@media only screen and (min-width: 611px) and (max-width: 805px) {
+@media only screen and (min-width: 611px) and (max-width: 1065px) {
 
 /*----------------------------=Home-------------------------------*/
 
