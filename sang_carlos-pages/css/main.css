@@ -9,14 +9,14 @@ body {
 p, address{
 	font: 62.5%/1.5 times, "times new roman", sans-serif;
 	font-size: .9em;
+	padding: 0 2%;
 }
 
 h1 {
 	float: left;
 	width: 29%;
-	clear: left;
 	padding-left: 1%;
-	margin: 5px 0 17px;
+	margin: 5px 0 0;
 	font-family: "Salsa";
 }
 
@@ -65,7 +65,7 @@ h2 {
 }
 
 #zipline {
-	margin: 0;
+	margin: 10px 0 0;
 	padding: 0;
 	border: 1px solid #000;
 	clear: left;
@@ -98,8 +98,12 @@ div h2, #waterpark h2, #mini_golf h2, #go_karts h2 {
 	margin: 0;
 }
 
+.read_more_links {
+	text-align: right;
+}
+
 #waterpark, #mini_golf {
-	width: 31.7%;
+	width: 31.8%;
 	float: left;
 	border: 1px solid #000;
 	background-color: #fff;
@@ -108,14 +112,14 @@ div h2, #waterpark h2, #mini_golf h2, #go_karts h2 {
 
 #go_karts {
 	float: right;
-	width: 31.7%;
+	width: 31.8%;
 	border: 1px solid #000;
 	background-color: #fff;
 	margin-top: 10px;
 }
 
 #mini_golf {
-	margin: 10px 2.1% 0;
+	margin: 10px 0 0 2%;
 }
 
 h2 a, li a, h1 a {
@@ -199,7 +203,6 @@ footer p, address {
 
 #form_header {
 	background-color: #00aeef;
-	height: 90px;
 	margin: 0;
 	padding: 0;
 }
@@ -425,9 +428,76 @@ legend {
 -----------------------------=Media queries------------------------------
 -----------------------------------------------------------------------*/
 
+@media only screen and (max-width: 610px) {
+
+/*----------------------------=Home-------------------------------*/
+
+	body {
+		width: 90%;
+	}
+
+	h1 {
+		float: left;
+		font-size: 1.1em;
+		width: 20%;
+		margin: 1px 0 0;
+	}
+	
+	nav {
+		float: right;
+		margin: 0;
+		width: 78%;
+		padding: 0;
+	}
+	
+	nav ul li {
+		float: left;
+		font-size: .4em;
+		padding: 0 2%;
+	}
+	
+	nav ul li a {
+		color: #000;
+		display: block;
+		height: 30px;
+		margin: 0;
+		width: 130%;
+		text-align: center;
+		padding-top: 20px;
+	}
+	
+	h2 {
+		font-size: 1em;
+	}
+
+}
+
+@media only screen and (min-width: 611px) and (max-width: 805px) {
+
+/*----------------------------=Home-------------------------------*/
+
+	h1 {
+		float: left;
+		font-size: 1.3em;
+		width: 26%;
+		margin: 12px 0 0;
+	}
+	
+	nav ul li {
+		float: left;
+		font-size: .6em;
+		padding: 0 2%;
+	}
+	
+	h2 {
+		font-size: 1.2em;
+	}
+
+}
+
 @media only screen and (max-width: 481px) {
 
-/*------------------------------=Home----------------------------------*/
+/*----------------------------=Moblie Landscape Home-------------------------------*/
 	
 	body {
 		position: relative;
